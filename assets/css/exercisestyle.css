@@ -1,0 +1,507 @@
+/*
+* reset styles
+*/
+html, body, body div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, ins, kbd, q, samp, small, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, figure, footer, header, hgroup, menu, nav, section, time, mark, audio, video {
+    border			: 0;
+    outline			: 0;
+    font-size		: 100%;
+	font-weight		: inherit;
+    font-style		: normal;
+    vertical-align	: baseline;
+    background		: transparent;
+	padding			: 0px;
+	margin			: 0px;
+}
+
+body {
+	color			: #333;
+	font-family		: "ff-tisa-web-pro", Georgia, sans-serif;
+	font-size		: 16px;
+}
+
+ul {
+	list-style		: none;
+}
+
+a {
+	text-decoration	: none;
+	color			: #39a086;
+}
+
+.maincontainer {
+	width			: 1080px; 
+	margin			: 0 auto;
+	padding-top 	: 20px;
+	min-width		: 320px;
+}
+
+.maincontainer > nav, .maincontainer > section {
+	display			: inline-block;
+	vertical-align	: top;
+}
+
+.maincontainer section {
+	width			: 896px; /*dimention of the big image*/
+}
+
+.maincontainer nav {
+	width			: 180px;
+}
+
+.maincontainer nav > .logo{
+	background-image	: url(../images/food-sense.png);
+	background-position	: 0 0;
+    background-repeat	: no-repeat;
+	height				: 120px;
+	width				: 120px;
+	margin-bottom		: 40px;
+}
+
+.maincontainer nav a {
+	font-style			: italic;
+	background-position	: 0 65%;
+    background-repeat	: no-repeat;
+	padding				: 12px 0px 6px 45px;
+}
+
+.maincontainer nav li {
+	padding-bottom		: 30px;
+}
+
+.maincontainer nav a.tastemakers {
+	background-image	: url(../images/Spoon-Fork-Knife-icon.png);
+}
+
+.maincontainer nav a.blog {
+	background-image	: url(../images/book.png);
+}
+
+.maincontainer nav a.thealist {
+	background-image	: url(../images/checklist.png);
+}
+
+.maincontainer nav a.contribute {
+	background-image	: url(../images/add.png);
+}
+
+.maincontainer nav a.about {
+	background-image	: url(../images/about_book.png);
+}
+
+.maincontainer nav .twitterfacebook {
+	margin-top			: 50px;
+	padding-right		: 30px;
+}
+
+.maincontainer nav .twitterfacebook h2 {
+    padding-bottom		: 5px;
+    text-transform		: uppercase;
+    font-size			: 12px;
+    border-bottom		: 1px dashed #d5d5d5;
+}
+
+.linkbox {
+	margin-bottom		: 30px;
+	margin-top			: 20px;
+}
+
+.maincontainer nav .linkbox > a {
+	border				: 1px solid #d5d5d5;
+	border-radius		: 5px;
+	padding				: 10px 10px 10px 30px;
+	font-size			: 10px;
+	background-position	: 5px center;
+    background-repeat	: no-repeat;
+}
+
+.maincontainer nav .twitter > .linkbox > a {
+	background-image	: url(../images/twitter16.png);
+}
+
+.maincontainer nav .facebook > .linkbox > a {
+	background-image	: url(../images/facebook16.png);
+}
+
+.maincontainer nav .facebook > .facebooktxt {
+	margin-top			: 10px;
+	line-height			: 1.75em;
+    font-size			: 10px;
+    font-style			: italic;
+}
+
+.content .topics {
+	background-color	: #EFF8F9;
+	margin-top			: -4px;
+}
+
+.content .topics > li {
+	width				: 22%;
+	display				: inline-block;
+	height				: 60px;
+	vertical-align		: middle;
+	margin-right		: -4px;
+	padding				: 20px 0px 5px 20px;
+	border-left			: 1px solid #D3EDE9;
+}
+
+.content .topics > li:first-child {
+	border-left			: none;
+	width				: 23%;
+}
+
+.content .topics > li:last-child {
+	width				: 23.8%;
+}
+
+.content .topics > li.active{
+	background-color	: #D9F0EC;
+}
+
+.content .topics > li h3 {
+	font-size			: 1.1em;
+}
+
+.content .topics > li span {
+	font-size			: .75em;
+    font-style			: italic;
+}
+
+.content .sendmail {
+	padding				: 10px 20px;
+	border-bottom		: 1px dashed #d5d5d5;
+	border-top			: 1px dashed #d5d5d5;
+	margin-top			: 30px;
+}
+
+.content .sendmail > div {
+	display				: inline-block;
+	line-height			: 14px;
+}
+
+.content .sendmail > div.mailtxt {
+	background-image	: url(../images/icon-mailinglist-32.png);
+	background-position	: 0 0;
+    background-repeat	: no-repeat;
+	padding-left		: 60px;
+	width				: 50%;
+	font-size			: .70em;
+    font-style			: italic;
+	vertical-align		: text-bottom;
+}
+
+.content .sendmail > div.mailfrm {
+	vertical-align		: text-bottom;
+	text-align			: right;
+}
+
+.content .sendmail > div.mailfrm input[type="text"]{
+	width				: 255px;
+	border				: 1px solid #999;
+	padding				: 2px;
+}
+
+button{
+	border-radius		: 4px;
+	border				: 1px solid #bbb;
+	padding				: 2px 10px 3px 10px;
+	margin-left			: 12px;
+	font-weight			: bold;
+	font-family			: Arial, sans-serif;
+	line-height			: 1.2em;
+	background-color	: #F0F0F0;
+}
+
+.content .recipe {
+	margin-top			: 30px;
+}
+
+.content .recipe > div {
+	display				: inline-block;
+	margin-left			: 20px;
+	width				: 206px;
+	vertical-align		: top;
+}
+
+.content .recipe > div:first-child {
+	display				: inline-block;
+	margin-left			: 0px;
+}
+
+.content .recipe img {
+	border				: 1px solid #e5e5e5;
+	width				: 190px;
+	padding				: 8px;
+}
+
+.content .recipe h3 {
+	font-size			: 1em;
+	margin				: 10px 0px;
+	height				: 40px;
+}
+
+.content .recipe .summary {
+	font-size			: .85em;
+    line-height			: 1.4em;
+}
+
+.content .recipe .recipedate {
+	margin-top			: 10px;
+	font-size			: .85em;
+	color				: #a5a5a5;
+}
+
+footer {
+	margin				: 30px 0px;
+	padding-top			: 20px;
+	border-top			: 2px solid #d5d5d5;
+	color				: #a5a5a5;
+	padding-bottom		: 30px;
+}
+
+footer .policy {
+	font-size			: 0.7em;
+	width				: 205px;
+	float				: left;
+	line-height			: 1.3em;
+}
+
+footer .socialicons {
+	width				: 110px;
+	float				: right;
+}
+
+footer .socialicons a {
+	background-position	: 50% 0;
+    background-repeat	: no-repeat;
+	height				: 32px;
+	width				: 32px;
+	display				: inline-block;
+	opacity				: 0.4;
+}
+
+footer .socialicons a.footer-twitter {
+	background-image	: url(../images/icon-twitter.png);
+}
+
+footer .socialicons a.footer-facebook {
+	background-image	: url(../images/icon-facebook.png);
+}
+
+footer .socialicons a.footer-rss {
+	background-image	: url(../images/icon-rss.png);
+}
+
+.maincontainer nav .addrecipy {
+	width				: 150px;
+	text-align			: center;
+}
+
+.maincontainer nav .addrecipy > a {
+	padding				: 0px;
+	text-decoration		: underline;
+}
+
+.screenwrapper {
+	position			: absolute;
+	top					: 0;
+	right				: 0;
+	width				: 100%;
+	height				: 100%;
+	background-color	: #ccc;
+	opacity				: .95;
+}
+
+.screenwrapper .addrecipeform {
+	margin 				: 15% auto;
+	width				: 300px;
+	background-color	: #D9F0EC;
+	border				: 1px solid #999;
+	opacity				: 1;
+	padding				: 10px;
+	position			: relative;
+	box-sizing			: border-box;
+	text-align			: center;
+}
+
+.screenwrapper .addrecipeform input, .screenwrapper .addrecipeform textarea {
+	width				: 95%;
+	border				: 1px solid #999;
+	padding				: 2px;
+	background-color	: #fff;
+	height				: 25px;
+	margin-bottom		: 10px;
+}
+
+.screenwrapper .addrecipeform textarea {
+	height				: 75px;
+}
+	
+
+
+.removeoverflowy {
+	overflow-y			: hidden;
+}
+@media only screen and (max-width: 1120px) {
+	.maincontainer nav .twitterfacebook {
+		display			: none;
+	}
+	
+	.maincontainer > nav, .maincontainer > section {
+		display			: block;
+		width			: 100%;
+	}
+	
+	.maincontainer nav .logo {
+		float			: left;
+		margin-bottom	: 30px;
+	}
+	
+	.maincontainer nav ul {
+		float			: right;
+		margin-top		: 60px;
+	}
+	
+	.maincontainer nav li {
+		display			: inline-block;
+		font-size		: 1em;
+	}
+
+	.maincontainer nav a {
+		background-position: 50% 0;
+		padding			: 35px 30px 0 30px;
+	}
+	
+	.content .topics > li {
+		height			: 25px;
+		padding			: 10px 0px 4px 20px;
+	}
+	
+	.content .topics > li span {
+		display			: none;
+	}
+	
+	.content .topics > li h3 {
+		font-size		: .95em;
+	}
+
+	.maincontainer {
+		width			: 897px;
+	}
+}
+	
+
+@media only screen and (max-width: 896px) {
+	.maincontainer {
+		width			: 500px;
+	}
+	.maincontainer nav {
+		position		: relative;
+	}
+	.maincontainer nav a.tastemakers {
+		background-image: none;
+	}
+	
+	.maincontainer nav a.blog {
+		background-image: none;
+	}
+
+	.maincontainer nav a.thealist {
+		background-image: none;
+	}
+	
+	.maincontainer nav a.contribute {
+		background-image: none;
+	}
+	
+	.maincontainer nav a.about {
+		background-image: none;
+	}
+	
+	#topicImage {
+		width			:500px;
+	}
+	
+	.content .topics {
+		display			: none;
+	}
+	
+	.maincontainer nav .logo {
+		float			: none;
+		clear			: both;
+		display			: inline-block;
+		margin			: 0px;
+		margin-bottom	: 10px;
+	}
+	
+	.maincontainer nav ul {
+		float			: none;
+		clear			: both;
+		display			: block;
+		width			: 370px;
+		position		: absolute;
+		left			: 130px;
+		top				: 50px;
+		margin			: 0px;
+	}
+	
+	.maincontainer nav li {
+		font-size		: .75em;
+	}
+	
+	.maincontainer nav a {
+		padding			: 35px 10px;
+	}
+	
+	.content .sendmail > div.mailtxt {
+		margin-bottom	: 8px;
+		width			: 90%;
+	}
+	
+	.content {
+		width			: 500px;
+	}
+	
+	.content .recipe > div:first-child {
+		margin-left		: 30px;
+	}
+	
+	.content .recipe > div:first-child {
+		margin-right	: 10px;
+	}
+}
+
+@media only screen and (max-width: 500px) {
+	.maincontainer, .content, #topicImage {
+		width			: 320px;
+	}
+	
+	.maincontainer nav {
+		text-align		: center;
+		margin-top		: 40px;
+	}
+	
+	.maincontainer nav ul {
+		left			: 0px;
+		top				: 0px;
+		margin-top		: -50px;
+		padding-bottom	: 10px;
+		border-bottom	: 1px solid #d5d5d5;
+		width			: 100%;
+	}
+	
+	.maincontainer nav ul li{
+		padding			: 0px;
+	}
+	
+	.maincontainer nav a {
+		padding			: 10px 5px;
+	}
+	
+	.content .sendmail > div.mailfrm {
+		text-align			: left;
+	}
+	
+	.content .sendmail > div.mailfrm input[type="text"]{
+		width				: 160px;
+	}
+}
